@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Case.Requester_First_Name__c}}},<br />
+<br />
+Thank you for your interest in&nbsp;&nbsp;{{{Case.Requested_Item_Name__c}}}. We will be in touch with next steps.&nbsp;<br />
+<br />
+Best,<br />
+Kaitlyn</body>
+</html>

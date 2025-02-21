@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Fees_Due_This_Month</fullName>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>Annual_Contract_Fee__c</columns>
+    <columns>Fee_Due_Date__c</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fee_Due_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>Contract Fees Due This Month</label>
+</ListView>

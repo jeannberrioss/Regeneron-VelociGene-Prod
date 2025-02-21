@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <label>Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animal Genetics &amp; Model Development</fullName>
+                <default>false</default>
+                <label>Animal Genetics &amp; Model Development</label>
+            </value>
+            <value>
+                <fullName>Computational Sciences</fullName>
+                <default>false</default>
+                <label>Computational Sciences</label>
+            </value>
+            <value>
+                <fullName>Genetics Medicines Platform &amp; Pipeline (Ophthalmology, Auditory, ERT)</fullName>
+                <default>false</default>
+                <label>Genetics Medicines Platform &amp; Pipeline (Ophthalmology, Auditory, ERT)</label>
+            </value>
+            <value>
+                <fullName>I-CUBED (Immune &amp; Inflammation, Immune-Oncology, Oncology, Infection Diseases &amp; Immune Tech.)</fullName>
+                <default>false</default>
+                <label>I-CUBED (Immune &amp; Inflammation, Immune-Oncology, Oncology, Infection Diseases &amp; Immune Tech.)</label>
+            </value>
+            <value>
+                <fullName>MAGICS (Muscle/Metabolism, Aging, Genetics, Cardiovascular/Renal, Skeletal/Connective Tissue Diseases)</fullName>
+                <default>false</default>
+                <label>MAGICS (Muscle/Metabolism, Aging, Genetics, Cardiovascular/Renal, Skeletal/Connective Tissue Diseases)</label>
+            </value>
+            <value>
+                <fullName>Neuroscience</fullName>
+                <default>false</default>
+                <label>Neuroscience</label>
+            </value>
+            <value>
+                <fullName>PT2 (Protein Therapeutics &amp; Platform Technology, TP, Bispecifics, PES)</fullName>
+                <default>false</default>
+                <label>PT2 (Protein Therapeutics &amp; Platform Technology, TP, Bispecifics, PES)</label>
+            </value>
+            <value>
+                <fullName>Regeneron Cell Medicines</fullName>
+                <default>false</default>
+                <label>Regeneron Cell Medicines</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

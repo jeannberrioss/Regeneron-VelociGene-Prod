@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Date_PO_Obtained__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>used in request tracker flow to display a message</description>
+    <label>No Date PO Obtained</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

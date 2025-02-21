@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type__c</fullName>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animal Model</fullName>
+                <default>false</default>
+                <label>Animal Model</label>
+            </value>
+            <value>
+                <fullName>Material/Reagent</fullName>
+                <default>false</default>
+                <label>Material/Reagent</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>hiPSC</fullName>
+                <default>false</default>
+                <label>hiPSC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Reporter</fullName>
+                <default>false</default>
+                <label>Reporter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

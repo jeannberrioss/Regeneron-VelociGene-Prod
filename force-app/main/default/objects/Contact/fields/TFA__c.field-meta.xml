@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TFA__c</fullName>
+    <label>TFA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aging</fullName>
+                <default>false</default>
+                <label>Aging</label>
+            </value>
+            <value>
+                <fullName>Auditory</fullName>
+                <default>false</default>
+                <label>Auditory</label>
+            </value>
+            <value>
+                <fullName>Bispecifics</fullName>
+                <default>false</default>
+                <label>Bispecifics</label>
+            </value>
+            <value>
+                <fullName>Cardiovascular (CV)</fullName>
+                <default>false</default>
+                <label>Cardiovascular (CV)</label>
+            </value>
+            <value>
+                <fullName>Connective Tissue Disorder/Synthetic Biology and Cell Engineering (CTD/SBCE)</fullName>
+                <default>false</default>
+                <label>Connective Tissue Disorder/Synthetic Biology and Cell Engineering (CTD/SBCE)</label>
+            </value>
+            <value>
+                <fullName>Co-Stim</fullName>
+                <default>false</default>
+                <label>Co-Stim</label>
+            </value>
+            <value>
+                <fullName>Editing Technologies and Therapeutic Cargo (ETTC)</fullName>
+                <default>false</default>
+                <label>Editing Technologies and Therapeutic Cargo (ETTC)</label>
+            </value>
+            <value>
+                <fullName>Enzyme Replacement Therapeutics (ERT)</fullName>
+                <default>false</default>
+                <label>Enzyme Replacement Therapeutics (ERT)</label>
+            </value>
+            <value>
+                <fullName>Human Systems</fullName>
+                <default>false</default>
+                <label>Human Systems</label>
+            </value>
+            <value>
+                <fullName>Immune &amp; Inflammation (I&amp;I)</fullName>
+                <default>false</default>
+                <label>Immune &amp; Inflammation (I&amp;I)</label>
+            </value>
+            <value>
+                <fullName>Infectious Diseases (ID)</fullName>
+                <default>false</default>
+                <label>Infectious Diseases (ID)</label>
+            </value>
+            <value>
+                <fullName>Neuroscience</fullName>
+                <default>false</default>
+                <label>Neuroscience</label>
+            </value>
+            <value>
+                <fullName>New Targets Investigation</fullName>
+                <default>false</default>
+                <label>New Targets Investigation</label>
+            </value>
+            <value>
+                <fullName>Obesity, Muscle &amp; Metabolism (OMM)</fullName>
+                <default>false</default>
+                <label>Obesity, Muscle &amp; Metabolism (OMM)</label>
+            </value>
+            <value>
+                <fullName>Oncology/Immuno-Oncology (OIO)</fullName>
+                <default>false</default>
+                <label>Oncology/Immuno-Oncology (OIO)</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology</fullName>
+                <default>false</default>
+                <label>Ophthalmology</label>
+            </value>
+            <value>
+                <fullName>VelociGene</fullName>
+                <default>false</default>
+                <label>VelociGene</label>
+            </value>
+            <value>
+                <fullName>VelociHum (VH)</fullName>
+                <default>false</default>
+                <label>VelociHum (VH)</label>
+            </value>
+            <value>
+                <fullName>VelociImmune (VI)</fullName>
+                <default>false</default>
+                <label>VelociImmune (VI)</label>
+            </value>
+            <value>
+                <fullName>Viral Delivery Technologies (VDT)</fullName>
+                <default>false</default>
+                <label>Viral Delivery Technologies (VDT)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

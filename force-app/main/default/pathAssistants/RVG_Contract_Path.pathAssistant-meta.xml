@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Contract</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>RVG Contract Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Remit_Address_Checked__c</fieldNames>
+        <info>&lt;p&gt;Remit Address must be confirmed before activation&lt;/p&gt;</info>
+        <picklistValueName>Activated</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

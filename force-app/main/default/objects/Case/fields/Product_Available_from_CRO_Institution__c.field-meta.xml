@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Available_from_CRO_Institution__c</fullName>
+    <label>Product Available from CRO/Institution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Live Animals</fullName>
+                <default>false</default>
+                <label>Live Animals</label>
+            </value>
+            <value>
+                <fullName>Embryos</fullName>
+                <default>false</default>
+                <label>Embryos</label>
+            </value>
+            <value>
+                <fullName>Cells</fullName>
+                <default>false</default>
+                <label>Cells</label>
+            </value>
+            <value>
+                <fullName>Sperm</fullName>
+                <default>false</default>
+                <label>Sperm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

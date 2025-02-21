@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>exkg0vsk57zbMXmWw5d7</issuer>
+    <loginUrl>https://regeneron.okta.com/app/salesforce/exkg0vsk57zbMXmWw5d7/sso/saml</loginUrl>
+    <name>VelociGene SSO</name>
+    <oauthTokenEndpoint>https://velocigene.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P1Hp000006CHHS</requestSigningCertId>
+    <salesforceLoginUrl>https://velocigene.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://velocigene.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDojCCAoqgAwIBAgIGAY522lalMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxEjAQBgNVBAMMCXJlZ2VuZXJvbjEcMBoGCSqGSIb3DQEJARYN
+aW5mb0Bva3RhLmNvbTAeFw0yNDAzMjUxODIyMjRaFw0zNDAzMjUxODIzMjRaMIGRMQswCQYDVQQG
+EwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UE
+CgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxEjAQBgNVBAMMCXJlZ2VuZXJvbjEcMBoGCSqG
+SIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJUU
+iAa5VK0ONqTF4tDLqpSeIKQwVeLkV+nSBL3deL6U3F/IafPhtBOrYUHHYZw2URR8N8Mjf4ck9z1g
+XcpwQL1jLczIfe4m1eMJ51KD56Zs6jQyLLml/lzKvh6VVAtfj7Qw7U/D38dsEeKYp3/YyGift7Cw
+PfewumuOscqy+nEeLyiTtFOhjX438+uAhCOySdIc7UAcrISrspKErS7fAuaU7+wAy+tuS/Ih3cC/
+BIbOy0sTttUNCupysUnFjQGzvnOB1G58L4vxABoIuO8kPzsE57r7k7QIoqge5Eek+rQyjOv+jlXz
+lnzLlZmVNZofrBXCK7h69Dk1TC/Af4FVc4kCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAbXxy0Lpf
+M87dzCdjhuA8nG5GtvZsc1kV2+rVHCnPNFyAqb7IHqkNgn0wN5ldBmpIY57TNEZjx1ivVjV2Bd94
+oQnVj8nhBFRgF+2Lm2IS/neTpvp8q8TTKVPqIZhgSA1XyQ86b94axzVQGm+NzVcYN/ymCKB5D/kM
+Bfn8QYWNVUZCGaNTN62BG/1twb2GBmJIcjVVAmHVihs8jxisV/8pyGdx1FgGcumru9gJnxOoSD09
+IhynTiyNEMIj+M6YW0yBCU5t3HKWULb7aJZz00tntCvNBwJtAQqdagWJH1dK2MQUcWpNwK/Lmw2z
+4YHm6vB6YEy+nn4wFHYHttZUQvdW7g==</validationCert>
+</SamlSsoConfig>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account Manager</fullName>
+        <default>false</default>
+        <label>Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entity Contact Person</fullName>
+        <default>false</default>
+        <label>Entity Contact Person</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Signatory</fullName>
+        <default>false</default>
+        <label>External Signatory</label>
+    </standardValue>
+</StandardValueSet>

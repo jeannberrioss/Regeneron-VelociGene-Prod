@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Case.Date_Vendor_Onboarding_Initiated__c:UNIQUE - Case.Date_Vendor_Onboarding_Completed__c:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Vendor Onboarding Days</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>CONTACT.NAME</field>
+    </columns>
+    <columns>
+        <field>Case.Requesting_TFA__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Case.Date_of_Inquiry__c</field>
+    </columns>
+    <columns>
+        <field>Case.Request_Type__c</field>
+    </columns>
+    <columns>
+        <field>Case.Date_Vendor_Onboarding_Initiated__c</field>
+    </columns>
+    <columns>
+        <field>Case.Date_Vendor_Onboarding_Completed__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Days_for_Vendor_Onboarding__c</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Materials_Vendor_Lookup__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Requests Vendor Onboarding in Days</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
